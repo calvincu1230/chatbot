@@ -24,6 +24,9 @@ if (process.env.MONGO_URI) {
     });
 }
 
+const fs = require('fs');
+let rawdata = fs.readFileSync('./public/resumeHarry.json');
+global.resume = JSON.parse(rawdata);
 
 const adapter = new WebAdapter({});
 
@@ -45,7 +48,6 @@ if (process.env.CMS_URI) {
 
 // Once the bot has booted up its internal services, you can use them to do stuff.
 controller.ready(() => {
-
     // load traditional developer-created local custom feature modules
     controller.loadModules(__dirname + '/features');
 
@@ -61,8 +63,16 @@ controller.ready(() => {
             }
         });
     }
+    
 
 });
+
+// controller.on('spawned', function(bot, convo) {
+//     console.log('here')
+//     bot.say('god damn it u whore')
+// });
+
+
 
 
 
