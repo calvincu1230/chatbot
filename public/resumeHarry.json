@@ -1,0 +1,135 @@
+{
+  "basics": {
+    "name": "Harry Zec",
+    "label": "Software Engineer",
+    "picture": "8===D ~o",
+    "email": "harryzec@gmail.com",
+    "phone": "(203)-247-0419",
+    "website": "https://harryzec.github.io",
+    "summary": "Dicks out for harambe",
+    "location": {
+      "address": "27 Burr Farms Rd",
+      "postalCode": "CT 06880",
+      "city": "Westport",
+      "countryCode": "US",
+      "region": "Connecticut"
+    },
+    "profiles": [{
+      "linkedIn": "https://www.linkedin.com/in/harry-zec-7157a4a8/",
+      "github": "https://github.com/harryzec",
+      "angelList": "https://angel.co/u/harry-zec"
+    }]
+  },
+  "projects": [{
+    "name": "CloneCloud",
+    "summary": "CloneCloud is a pixel perfect clone of the audio distribution and music sharing platform SoundCloud. This was inspired by love for and background in music.",
+    "technologies": ["Ruby", "JavaScript", "Rails", "React.js", "Redux", "PostGreSQL", "AWS S3", "Wavesurfer.js", "CSS", "HTML", "Heroku"],
+    "link": "https://soundcloudclone1.herokuapp.com/#/",
+    "github": "https://github.com/harryzec/SoundCloud",
+    "highlights": [
+      "Provided full CRUD functionality for songs and playlists, while storing media on AWS S3 to reduce load times",
+      "Built a custom media player that grants users control of their song listening experience through clickable and synchronized HTML5 media play and Wavesurfer.js", "Created extensive custom Rails routes geared towards providing users optimal exposure to new content", 
+      "Implemented likes, follows and comments using joins tables and polymorphic associations, providing users withgreater insight into similar media and the tastes of other users"
+    ]
+  },
+  {
+    "name": "Dynamite Hero",
+    "summary": "Dynamite Hero is based off of guitar hero where you hit notes aligned with a song as they come at you. This time, you are playing to Napolean Dynamite's sweet moves!",
+    "technologies": ["Vanilla Javascript", "Canvas"],
+    "link": "https://harryzec.github.io/Dynamite-Hero/",
+    "github": "https://github.com/harryzec/Dynamite-Hero",
+    "highlights": [
+      "Devised custom collision detection logic to trigger different conditions based on a variety of gameplay objects, ensuring unique behaviors for each type of note",
+      "Developed a disco ball using circle motion that alters the UI by speeding up and slowing down as a player develops a streak to provide visual cues for success",
+      "Aligned and visualized notes and with a song by iterating them and using a setTimeout, adjusted the difficulty level by only setting every second or third note"
+    ]
+  },
+  {
+    "name": "Dinder",
+    "summary": "A group decision making app that answers: where should we get dinner tonight? We'll find a restaurant option that you and your friends can all agree on, so you can circumvent the annoying 3 hour round-and-round of indecision.",
+    "technologies": ["MERN Stack", "React", "Redux"],
+    "link": "https://dinderparty.herokuapp.com/#/",
+    "github": "https://github.com/elonrov/dinder",
+    "highlights": [
+      "Group project based on MERN stack, spearheaded backend development and pushed changes using Git workflow",
+      "Harnessed Node Mailer via backend routes in MongoDB to send specialized access codes that enable users to join a session and submit food preferences for dinner",
+      "Utilized Yelp’s API and allow for custom options based on location and cuisine, providing users ability to select from the best restaurants in with the qualifications they are looking for"
+    ]
+  } 
+],
+  "work": [{
+    "company": "Eko Health",
+    "position": "Inside Sales Representative",
+    "website": "https://www.ekohealth.com/",
+    "startDate": "2018-07-30",
+    "endDate": "2019-08-01",
+    "summary": "First commercial hire responsible for generating the sales pipeline and managing the cardiovascular telemedicine needs for best-in-class health systems",
+    "highlights": [
+      "Developed and maintained relationships with healthcare technology officers and kept a 17% outreach to demo ratio",
+      "Executed on average 26 demos of Eko’s medical devices, machine learning, telemedicine platforms per month",
+      "Initiated a meeting with a top 5 health system that became an investor in the companies series B funding",
+      "Collaborated with 6 remote patient monitoring and virtual care institutions for SDK partnerships"
+    ]
+  },
+  {
+    "company": "KXSC Radio",
+    "position": "Vice President",
+    "website": "https://kxsc.org/",
+    "startDate": "2016-05-10",
+    "endDate": "2018-05-10",
+    "summary": "Directed all on-air content and the internship programming at USC's on campus radio station",
+    "highlights": [
+      "Doubled the amount of radio shows from 50 to 106 by improving community presence through 15 events",
+      "Spearheaded and promoted a KXSC fundraiser which raised over $5,000 in revenue by cold calling alumni and selling 20 on air advertisement spaces",
+      "Restructured 12 staff positions to improve workflow and create direct and attainable employee goals",
+      "Redesigned the intern training system to adjust for a 200% increase in applications"
+    ]
+  }],
+  "education": [{
+    "institution": "University of Southern California",
+    "area": "Economics and Studio Jazz Guitar",
+    "studyType": "Bachelor of Arts",
+    "startDate": "August 2014",
+    "endDate": "May 2018",
+    "gpa": "3.7",
+    "awards": ["Dean's List, Renaissance Scholar"]
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ruby",
+      "Ruby on Rails",
+      "Node.js",
+      "React",
+      "Redux",
+      "SQL",
+      "MongoDB",
+      "Mongoose.js",
+      "AWS",
+      "Heroku",
+      "Express.js",
+      "PostgreSQL"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Music",
+    "keywords": [
+    ]
+  }],
+  "references": [{
+    "name": "Steve Avila",
+    "reference": "Eko Health"
+  },
+  {
+    "name": "Adam Rose",
+    "reference": "Center for Risk and Economic Analysis of Terrorism Events"
+  }]
+}

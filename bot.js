@@ -12,7 +12,7 @@ const { BotkitCMSHelper } = require('botkit-plugin-cms');
 
 const { WebAdapter } = require('botbuilder-adapter-web');
 
-const { MongoDbStorage } = require('botbuilder-storage-mongodb');
+// const { MongoDbStorage } = require('botbuilder-storage-mongodb');
 
 // Load process.env values from .env file
 require('dotenv').config();

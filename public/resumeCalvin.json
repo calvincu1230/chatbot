@@ -1,0 +1,156 @@
+{  "basics": {
+    "name": "Calvin Curnuck",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "calvin.curnuck@gmail.com",
+    "phone": "(516) 282-4014",
+    "website": "https://calvincurnuck.com/",
+    "summary": "Big Sexy Boi",
+    "location": {
+      "address": "79 Elm Drive N",
+      "postalCode": "NY 11756",
+      "city": "Levittown",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [{
+      "linkedIn": "https://www.linkedin.com/in/calvincu/",
+      "github": "github.com/calvincu1230",
+      "angelList": "https://angel.co/u/calvin-curnuck"
+    }]
+  },
+  "work": [{
+    "company": "Freelance",
+    "position": "Software Engineer",
+    "startDate": "2020-03-15",
+    "endDate": "Current",
+    "summary": "Constantly working on projects to expand toolbelt and skills.",
+    "highlights": [
+      "Collaborated with a team of 4 on a Node.js application, dinder, to better help groups decide where to eat while leveraging the Yelp API to provide local restaurants and delivering interactive user experience.",
+      "Created a rails app called Lagerd for craft beer enthusiasts with a React/Redux frontend and PostgreSQL database."
+    ]
+  },
+  {
+    "company": "Tru SheetMetal Inc.",
+    "position": "Estimator",
+    "startDate": "2015-03-05",
+    "endDate": "2019-09-05",
+    "summary": "Description...",
+    "highlights": [
+      "Redesigned estimating protocol using new software to cut estimate time by 10% and increased accuracy by 15%, leading to increased profits and reduced cost.",
+      "Completed over 500 estimates per year resulting in boosted revenue and increased company exposure, resulting in more overall requests for work.",
+      "Interfaced with contractors and sub-contractors to ensure there was no estimate overlap and the entire scope of work was covered.",
+      "Analyzed thousands of pages of specifications per bid to ensure all costly errors are avoided."
+    ]
+  }],
+  "projects": [{
+    "name": "Lagerd",
+    "summary": "A Full Stack beer-focused social media app inspired by Untappd.  Users can build a community through check-ins and comments or they can use them to 'collect' beers with a clean, easy to use interface.",
+    "technologies": [
+      "Ruby",
+      "React",
+      "Redux",
+      "Ruby on Rails",
+      "AWS",
+      "PostgreSQL",
+      "HTML",
+      "CSS"
+    ],
+    "highlights": [
+      "Optimized backend server requests through model level associations and ActiveRecord queries to decrease loading times.",
+      "Utilized custom validation using Ruby’s Date class to ensure users were of an appropriate age.",
+      "Attained better user experience and interaction by implementing comments and likes on beer check-ins."
+    ],
+    "github": "https://github.com/calvincu1230/Lagerd",
+    "link": "https://lagerd.herokuapp.com/"
+  },
+  {
+    "name": "dinder",
+    "summary": "A group decision-making app that answers the question: where should we get dinner tonight?",
+    "technologies": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "Express",
+      "AWS",
+      "MongoDB",
+      "Node",
+      "HTML",
+      "CSS"
+    ],
+    "highlights": [
+      "Leveraged custom backend routes to allow users to log in to their session without the need for an account by entering a randomly generated six-digit code linked to their session and email.",
+      "Distributed emails through Nodemailer to send codes and winning restaurants to all emails in the session.",
+      "Integrated the Yelp API to generate restaurants fitting the user’s criteria."
+    ],
+    "github": "https://github.com/elonrov/dinder",
+    "link": "http://dinderparty.herokuapp.com/"
+  },
+  {
+    "name": "Browser Battles",
+    "summary": "Browsers fight for supremacy in this turn-based battle game inspired by the classic Pokemon combat.",
+    "technologies": [
+      "JavaScript",
+      "Canvas",
+      "HTML",
+      "CSS"
+    ],
+    "highlights": [
+      "Implemented boolean flags to allow animations to complete before beginning the next turn, thus keeping players more engaged.",
+      "Rendered battle texts dynamically to show all damage and health.",
+      "Established dynamic classes, allowing users to choose a browser and have different playing experiences with no changes to the game logic."
+    ],
+    "github": "https://github.com/calvincu1230/Browser-Battles",
+    "link": "https://calvincu1230.github.io/Browser-Battles/"
+  }],
+  "education": [{
+    "institution": "University",
+    "area": "Economics",
+    "studyType": "Bachelor",
+    "startDate": "2010-08-30",
+    "endDate": "2014-05-23"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ruby",
+      "Ruby on Rails",
+      "Node",
+      "React",
+      "Redux",
+      "Heroku",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS",
+      "Express"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "outdoors",
+    "keywords": [
+      "Hiking",
+      "Camping"
+    ]
+  },
+  {
+    "name": "cooking",
+    "keywords": [
+      "Food"
+    ]
+  },
+  {
+    "name": "homebrew",
+    "keywords": [
+      "Beer",
+      "Brewing"
+    ]
+  }]
+}
