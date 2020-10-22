@@ -94,7 +94,7 @@
     "gpa": "3.7",
     "awards": ["Dean's List, Renaissance Scholar"]
   }],
-  "skills": [{
+  "skills": {
     "name": "Web Development",
     "level": "Master",
     "keywords": [
@@ -114,7 +114,7 @@
       "Express.js",
       "PostgreSQL"
     ]
-  }],
+  },
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"

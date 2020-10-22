@@ -110,7 +110,7 @@
     "startDate": "2010-08-30",
     "endDate": "2014-05-23"
   }],
-  "skills": [{
+  "skills": {
     "name": "Web Development",
     "level": "Master",
     "keywords": [
@@ -128,7 +128,7 @@
       "AWS",
       "Express"
     ]
-  }],
+  },
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
