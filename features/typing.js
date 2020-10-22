@@ -17,7 +17,7 @@ module.exports = function(controller) {
     typing.addAction('add_delay','typing');
 
     // Added empty object to avoid 
-    typing.addMessage({},'add_delay');
+    typing.addMessage({type: 'typing'},'add_delay');
 
     // use the before handler to delay the next message 
     typing.before('add_delay',  async () => {
